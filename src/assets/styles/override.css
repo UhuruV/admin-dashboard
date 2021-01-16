@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.el-button {
+	color: #ecf0f1;
+	background-color: #1782c5;
+	/* border-color: #1b7fc3; */
+	cursor: pointer;
+	position: relative;
+	display: block;
+	border-radius: 4px;
+	transition: background-color ease-in-out 0.3s;
+	padding: 15px 50px;
+	font-size: 14px;
+}
+.el-input__inner {
+	background-color: #e5e5e5;
+}
+.el-select {
+	width: 148%;
+}
+.country-picker-form {
+	height: 59;
+}
+select {
+	background-color: #e5e5e5;
+	/* padding: 10px 15px 10px 0; */
+	height: 32px;
+	line-height: 32px;
+	border: none;
+	border-radius: 4px;
+	width: 61%;
+	margin-bottom: 10%;
+	margin-left: 31px;
+	display: inline-block;
+	color: #c5c6ca;
+}
+label {
+	font-size: 14px;
+	color: #606266;
+}
+.el-upload-dragger {
+	border: 1px solid #e5e5e5;
+	height: 150px;
+	width: 144%;
+	background-color: #e5e5e5;
+}
+.el-form-item__label {
+	width: 150px;
+	word-break: break-word;
+	text-align: left;
+}
+.el-select .el-input.is-focus .el-input__inner {
+	border-color: #606266;
+}
+.el-select .el-input.after .el-input__inner {
+	border-color: #606266;
+}
+.el-input.is-focus,
+.el-input.after {
+	border-color: #606266;
+}
+.form-item__label {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #545151;
+}
+.search-input {
+	border-radius: 30px;
+}
+.el-table td {
+	border-bottom: none !important;
+}
+.el-table th.is-leaf {
+	border-bottom: none;
+}
+.el-table::before {
+	height: 0;
+}
+.el-table th {
+	color: #000;
+}
+.el-table td,
+.el-table th {
+	text-align: left;
+}
+
+#el-input {
+	border-radius: 30px;
+	background: #ffffff;
+	border: 1px solid #848181;
+	box-sizing: border-box;
+	height: 35px;
+	width: 271px;
+}
+#input {
+	background: #ffffff;
+	border: 1px solid #545151;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: fit-content;
+	margin-bottom: 10%;
+}
+.el-menu-item:hover {
+	text-decoration: none;
+	background-color: fff;
+}
+#chart-card {
+	width: 100%;
+}
+button {
+	background: #dfeefb;
+	border-radius: 20px;
+	border: none;
+	padding: 6px 18px;
+}
+.rejection-button {
+	background: #eb5757;
+}
+#candidates-name {
+	color: #000;
+}
